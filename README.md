@@ -1,4 +1,4 @@
-# Antipodal Robotic Grasping
+# Languega Drive Grasping detection with Mask-guided Attention for Robotic Grasping
 ## Installation
 - Checkout the robotic grasping package
 ```bash
