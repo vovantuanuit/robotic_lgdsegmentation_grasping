@@ -29,7 +29,7 @@ $ pip install -r requirements.txt
 
 - Please dowload the weight for our language-driven grasping at here: https://drive.google.com/file/d/1Iom8DMYH8x1bke3onqfh2bUFJAm3JWW2/view?usp=sharing , this weight path for inference (--weight this_weight_path)
 ```bash
-$ python robotic_exp.py --weight weights/model_<dataset>
+$ python robotic_exp.py --weight <this_weight_path>
 ```
 
 ## Output structure
