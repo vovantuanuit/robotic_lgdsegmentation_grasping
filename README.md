@@ -22,14 +22,12 @@ $ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolk
 $ pip install -r requirements.txt
 ```
 
-## Weights
-- All weights are stored at `weights/model_<dataset>`.
 
 ## Inference example
 - An atom example is shown in `robotic_exp.py`. To run this file:
-Please dowload the weights for segmentation head at here:, then put to ./inference/checkpoints
+- Please dowload the weights for segmentation head at here: https://drive.google.com/file/d/170XJLGoYKKMpMebTkVBdN-JCwPFRalPk/view?usp=sharing, then put to ./inference/checkpoints
 
-Please dowload the weight for our language-driven grasping at here: 
+- Please dowload the weight for our language-driven grasping at here: https://drive.google.com/file/d/1Iom8DMYH8x1bke3onqfh2bUFJAm3JWW2/view?usp=sharing , this weight path for inference (--weight this_weight_path)
 ```bash
 $ python robotic_exp.py --weight weights/model_<dataset>
 ```
